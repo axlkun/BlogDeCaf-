@@ -1,4 +1,4 @@
 # BlogDeCaf-
-Frontend de un blog sobre café
+Coffee blog frontend
 
-HTML y CSS
+Developed with HTML5 and CSS3
