@@ -62,6 +62,7 @@ p{
 
 img{
     max-width: 100%;
+    
 }
 
 /* Utilidades */
@@ -292,11 +293,13 @@ footer .barra{
 }
 
 .curso{
-    /* padding: 0rem 0rem 0rem 0rem;
-    background-color: var(--gris); */
-    /* border-bottom: 1px solid var(--gris); */
+    /*padding: 0rem 0rem 0rem 0rem;
+    background-color: var(--gris);
+    border-bottom: 1px solid var(--gris);*/
     margin-bottom: 2.5rem;
 }
+
+
 
 @media (min-width: 768px) {
     .curso{
@@ -304,6 +307,11 @@ footer .barra{
         grid-template-columns: 1fr 2fr;
         column-gap: 2rem;
     }
+}
+
+.curso__imagen img{
+    width: 100%;
+    display: block;
 }
 
 .curso:last-of-type{
