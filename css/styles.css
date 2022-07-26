@@ -187,9 +187,14 @@ img{
     padding: 1rem 3rem; /* arriba y abajo, izquierda y derecha*/
     font-size: 1.8rem;
     text-transform: uppercase;
+    border-radius: .5rem;
     font-weight: 700;
     margin-bottom: 2rem;
     border: none;
+}
+
+.no-marginb{
+    margin-bottom: 0rem;
 }
 
 .boton:hover{
@@ -256,7 +261,7 @@ img{
 
 .footer{
     background-color: var(--negro);
-    margin-top: 4rem;
+    margin-top: 2rem;
 }
 
 footer .barra{
@@ -356,16 +361,34 @@ footer .barra{
     background-repeat: no-repeat;
 }
 
-.formulario{
-    background-color: var(--blanco);
-    margin: -5rem auto 0 auto;
-    width: 80%;
-    padding: 5rem;
+@media (min-width: 768px) {
+    .formulario{
+        background-color: var(--blanco);
+        margin: -5rem auto 0 auto;
+        width: 80%;
+        padding: 5rem 5rem 0rem 5rem;
+    }
 }
+
+@media (max-width: 480px) {
+    .formulario{
+        margin-top: 2rem;
+    }
+}
+
 
 .campo{
     display: flex; /*ordena horizontalmente el label y el input*/
     margin-bottom: 2rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.alinear{
+    justify-content: center;
+    margin-top: 2rem;
 }
 
 .campo__label{
